@@ -33,4 +33,7 @@ def get_employees():
 @app.route("/health")
 def health():
     return jsonify({"status": "UP"}), 200
+
 app.run(host="0.0.0.0", port=5000)
+
+
